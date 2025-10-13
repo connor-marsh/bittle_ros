@@ -1,0 +1,3401 @@
+<sdf version='1.7'>
+  <model name='bittle'>
+    <link name='base_link'>
+      <inertial>
+        <pose>0.004433 -0.002921 0.026053 0 -0 0</pose>
+        <mass>0.110428</mass>
+        <inertia>
+          <ixx>9.32116e-05</ixx>
+          <ixy>-1.66974e-05</ixy>
+          <ixz>3.88046e-06</ixz>
+          <iyy>0.00020471</iyy>
+          <iyz>-3.85781e-07</iyz>
+          <izz>0.000282389</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/base_link.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__front__1_collision_1'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/front__1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__a_1_collision_2'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/a_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__b__1_collision_3'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/b__1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__c_1_collision_4'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__rear__1_collision_5'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/rear__1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__d_1_collision_6'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/d_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__e_1_collision_7'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/e_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__f_1_collision_8'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/f_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__g_1_collision_9'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/g_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__h__1_collision_10'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/h__1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__i_1_collision_11'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/i_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__j__1_collision_12'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/j__1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__k_1_collision_13'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/k_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__l_1_collision_14'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/l_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__servo_rfs_1_collision_15'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servo_rfs_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__screw_16_1_collision_16'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_16_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__screw_7_1_collision_17'>
+        <pose>-0 0 -0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_7_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__servo_lfs_1_collision_18'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servo_lfs_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__screw_5_1_collision_19'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_5_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__screw_10_1_collision_20'>
+        <pose>-0 0 -0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_10_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__servo_rrs__1_collision_21'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servo_rrs__1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__screw_1_1_collision_22'>
+        <pose>0 0 -0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_1_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__screw_15_1_collision_23'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_15_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__cover_1_collision_24'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/cover_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__logo_5_1_collision_25'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/logo_5_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__logo_1_1_collision_26'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/logo_1_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__logo_2_1_collision_27'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/logo_2_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__logo_3_1_collision_28'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/logo_3_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__logo_4_1_collision_29'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/logo_4_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__battery_1_collision_30'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/battery_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__servo_lrs__1_collision_31'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servo_lrs__1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__screw_13_1_collision_32'>
+        <pose>0 0 -0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_13_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__screw_14_1_collision_33'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_14_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__c_neck__1_collision_34'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_neck__1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__screw_17_1_collision_35'>
+        <pose>0 0 -0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_17_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__screw_21_1_collision_36'>
+        <pose>0 0 -0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_21_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__screw_6_1_collision_37'>
+        <pose>0 0 -0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_6_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/base_link.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 171 80 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__front__1_visual_1'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/front__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 167 255 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__a_1_visual_2'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/a_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__b__1_visual_3'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/b__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__c_1_visual_4'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__rear__1_visual_5'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/rear__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 167 255 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__d_1_visual_6'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/d_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__e_1_visual_7'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/e_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__f_1_visual_8'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/f_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__g_1_visual_9'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/g_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__h__1_visual_10'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/h__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__i_1_visual_11'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/i_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__j__1_visual_12'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/j__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__k_1_visual_13'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/k_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__l_1_visual_14'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/l_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__servo_rfs_1_visual_15'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servo_rfs_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__screw_16_1_visual_16'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_16_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__screw_7_1_visual_17'>
+        <pose>-0 0 -0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_7_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__servo_lfs_1_visual_18'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servo_lfs_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__screw_5_1_visual_19'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_5_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__screw_10_1_visual_20'>
+        <pose>-0 0 -0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_10_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__servo_rrs__1_visual_21'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servo_rrs__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__screw_1_1_visual_22'>
+        <pose>0 0 -0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_1_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__screw_15_1_visual_23'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_15_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__cover_1_visual_24'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/cover_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>73 73 70 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__logo_5_1_visual_25'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/logo_5_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 171 80 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__logo_1_1_visual_26'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/logo_1_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 171 80 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__logo_2_1_visual_27'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/logo_2_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 171 80 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__logo_3_1_visual_28'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/logo_3_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 171 80 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__logo_4_1_visual_29'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/logo_4_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 171 80 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__battery_1_visual_30'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/battery_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>73 73 70 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__servo_lrs__1_visual_31'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servo_lrs__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__screw_13_1_visual_32'>
+        <pose>0 0 -0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_13_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__screw_14_1_visual_33'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_14_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__c_neck__1_visual_34'>
+        <pose>0 0 0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_neck__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>244 229 167 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__screw_17_1_visual_35'>
+        <pose>0 0 -0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_17_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__screw_21_1_visual_36'>
+        <pose>0 0 -0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_21_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__screw_6_1_visual_37'>
+        <pose>0 0 -0 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_6_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <gravity>1</gravity>
+      <self_collide>1</self_collide>
+    </link>
+    <joint name='shrfs_joint' type='revolute'>
+      <pose relative_to='base_link'>0.0525 -0.0485 0.022 0 -0 0</pose>
+      <parent>base_link</parent>
+      <child>c_thrf__1</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='c_thrf__1'>
+      <pose relative_to='shrfs_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0.022218 -0.001171 -0.005953 0 -0 0</pose>
+        <mass>0.00502386</mass>
+        <inertia>
+          <ixx>7.21271e-08</ixx>
+          <ixy>-2.35294e-08</ixy>
+          <ixz>-2.41073e-07</ixz>
+          <iyy>9.64288e-07</iyy>
+          <iyz>-6.29265e-09</iyz>
+          <izz>9.07224e-07</izz>
+        </inertia>
+      </inertial>
+      <collision name='c_thrf__1_collision'>
+        <pose>-0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_thrf__1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thrf__1_fixed_joint_lump__th_rf_1_collision_1'>
+        <pose>-0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/th_rf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thrf__1_fixed_joint_lump__tho_rf__1_collision_2'>
+        <pose>-0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tho_rf__1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thrf__1_fixed_joint_lump__c_thorf_1_collision_3'>
+        <pose>-0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_thorf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thrf__1_fixed_joint_lump__screwm_3_1_collision_4'>
+        <pose>-0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_3_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thrf__1_fixed_joint_lump__tube__1_collision_5'>
+        <pose>-0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tube__1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thrf__1_fixed_joint_lump__screwm_4_1_collision_6'>
+        <pose>-0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_4_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='c_thrf__1_visual'>
+        <pose>-0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_thrf__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>244 229 167 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thrf__1_fixed_joint_lump__th_rf_1_visual_1'>
+        <pose>-0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/th_rf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 171 80 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thrf__1_fixed_joint_lump__tho_rf__1_visual_2'>
+        <pose>-0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tho_rf__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>73 73 70 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thrf__1_fixed_joint_lump__c_thorf_1_visual_3'>
+        <pose>-0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_thorf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>244 229 167 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thrf__1_fixed_joint_lump__screwm_3_1_visual_4'>
+        <pose>-0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_3_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>176 255 244 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thrf__1_fixed_joint_lump__tube__1_visual_5'>
+        <pose>-0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tube__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 167 255 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thrf__1_fixed_joint_lump__screwm_4_1_visual_6'>
+        <pose>-0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_4_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>176 255 244 1</ambient>
+        </material>
+      </visual>
+      <self_collide>1</self_collide>
+    </link>
+    <joint name='shrft_joint' type='revolute'>
+      <pose relative_to='c_thrf__1'>-0.044433 0.00142 -0.011906 0 -0 0</pose>
+      <parent>c_thrf__1</parent>
+      <child>servos_rf_1</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='servos_rf_1'>
+      <pose relative_to='shrft_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0.007615 0.012355 -0.000544 0 -0 0</pose>
+        <mass>0.018963</mass>
+        <inertia>
+          <ixx>1.00451e-06</ixx>
+          <ixy>-2.25934e-08</ixy>
+          <ixz>1.81174e-08</ixz>
+          <iyy>2.55956e-06</iyy>
+          <iyz>4.93626e-10</iyz>
+          <izz>2.56227e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='servos_rf_1_collision'>
+        <pose>-0.008067 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servos_rf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servos_rf_1_fixed_joint_lump__shank_rf_1_collision_1'>
+        <pose>-0.008067 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/shank_rf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servos_rf_1_fixed_joint_lump__screw_9_1_collision_2'>
+        <pose>-0.008067 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_9_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servos_rf_1_fixed_joint_lump__screw_8_1_collision_3'>
+        <pose>-0.008067 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_8_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='servos_rf_1_visual'>
+        <pose>-0.008067 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servos_rf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='servos_rf_1_fixed_joint_lump__shank_rf_1_visual_1'>
+        <pose>-0.008067 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/shank_rf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>73 73 70 1</ambient>
+        </material>
+      </visual>
+      <visual name='servos_rf_1_fixed_joint_lump__screw_9_1_visual_2'>
+        <pose>-0.008067 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_9_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='servos_rf_1_fixed_joint_lump__screw_8_1_visual_3'>
+        <pose>-0.008067 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_8_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <self_collide>1</self_collide>
+    </link>
+    <joint name='shlfs_joint' type='revolute'>
+      <pose relative_to='base_link'>0.0525 0.0485 0.022 0 -0 0</pose>
+      <parent>base_link</parent>
+      <child>c_thlf_1</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='c_thlf_1'>
+      <pose relative_to='shlfs_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0.022218 0.001171 -0.005953 0 -0 0</pose>
+        <mass>0.00502384</mass>
+        <inertia>
+          <ixx>7.21265e-08</ixx>
+          <ixy>2.35292e-08</ixy>
+          <ixz>-2.41071e-07</ixz>
+          <iyy>9.64283e-07</iyy>
+          <iyz>6.29272e-09</iyz>
+          <izz>9.0722e-07</izz>
+        </inertia>
+      </inertial>
+      <collision name='c_thlf_1_collision'>
+        <pose>-0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_thlf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thlf_1_fixed_joint_lump__th_lf_1_collision_1'>
+        <pose>-0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/th_lf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thlf_1_fixed_joint_lump__tho_lf_1_collision_2'>
+        <pose>-0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tho_lf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thlf_1_fixed_joint_lump__c_tholf_1_collision_3'>
+        <pose>-0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_tholf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thlf_1_fixed_joint_lump__screwm_6_1_collision_4'>
+        <pose>-0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_6_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thlf_1_fixed_joint_lump__tube_lf_1_collision_5'>
+        <pose>-0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tube_lf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thlf_1_fixed_joint_lump__screwm_5_1_collision_6'>
+        <pose>-0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_5_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='c_thlf_1_visual'>
+        <pose>-0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_thlf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>244 229 167 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thlf_1_fixed_joint_lump__th_lf_1_visual_1'>
+        <pose>-0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/th_lf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 171 80 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thlf_1_fixed_joint_lump__tho_lf_1_visual_2'>
+        <pose>-0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tho_lf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>73 73 70 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thlf_1_fixed_joint_lump__c_tholf_1_visual_3'>
+        <pose>-0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_tholf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>244 229 167 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thlf_1_fixed_joint_lump__screwm_6_1_visual_4'>
+        <pose>-0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_6_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>176 255 244 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thlf_1_fixed_joint_lump__tube_lf_1_visual_5'>
+        <pose>-0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tube_lf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 167 255 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thlf_1_fixed_joint_lump__screwm_5_1_visual_6'>
+        <pose>-0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_5_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>176 255 244 1</ambient>
+        </material>
+      </visual>
+      <self_collide>1</self_collide>
+    </link>
+    <joint name='shlft_joint' type='revolute'>
+      <pose relative_to='c_thlf_1'>-0.044433 -0.00142 -0.011906 0 -0 0</pose>
+      <parent>c_thlf_1</parent>
+      <child>servos_lf_1</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='servos_lf_1'>
+      <pose relative_to='shlft_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0.007615 -0.012355 -0.000544 0 -0 0</pose>
+        <mass>0.018963</mass>
+        <inertia>
+          <ixx>1.00451e-06</ixx>
+          <ixy>2.25934e-08</ixy>
+          <ixz>1.81175e-08</ixz>
+          <iyy>2.55956e-06</iyy>
+          <iyz>-4.93629e-10</iyz>
+          <izz>2.56227e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='servos_lf_1_collision'>
+        <pose>-0.008067 -0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servos_lf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servos_lf_1_fixed_joint_lump__shank_lf_1_collision_1'>
+        <pose>-0.008067 -0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/shank_lf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servos_lf_1_fixed_joint_lump__screw_2_1_collision_2'>
+        <pose>-0.008067 -0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_2_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servos_lf_1_fixed_joint_lump__screw_20_1_collision_3'>
+        <pose>-0.008067 -0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_20_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='servos_lf_1_visual'>
+        <pose>-0.008067 -0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servos_lf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='servos_lf_1_fixed_joint_lump__shank_lf_1_visual_1'>
+        <pose>-0.008067 -0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/shank_lf_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>73 73 70 1</ambient>
+        </material>
+      </visual>
+      <visual name='servos_lf_1_fixed_joint_lump__screw_2_1_visual_2'>
+        <pose>-0.008067 -0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_2_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='servos_lf_1_fixed_joint_lump__screw_20_1_visual_3'>
+        <pose>-0.008067 -0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_20_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <self_collide>1</self_collide>
+    </link>
+    <joint name='shrrs_joint' type='revolute'>
+      <pose relative_to='base_link'>-0.0525 -0.0485 0.022 0 -0 0</pose>
+      <parent>base_link</parent>
+      <child>c_thrr_1</child>
+      <axis>
+        <xyz>0 -1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='c_thrr_1'>
+      <pose relative_to='shrrs_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0.022226 -0.001172 -0.005953 0 -0 0</pose>
+        <mass>0.00502384</mass>
+        <inertia>
+          <ixx>7.21272e-08</ixx>
+          <ixy>-2.35332e-08</ixy>
+          <ixz>-2.41096e-07</ixz>
+          <iyy>9.64384e-07</iyy>
+          <iyz>-6.29527e-09</iyz>
+          <izz>9.07308e-07</izz>
+        </inertia>
+      </inertial>
+      <collision name='c_thrr_1_collision'>
+        <pose>0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_thrr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thrr_1_fixed_joint_lump__th_rr_1_collision_1'>
+        <pose>0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/th_rr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thrr_1_fixed_joint_lump__tho_rr_1_collision_2'>
+        <pose>0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tho_rr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thrr_1_fixed_joint_lump__c_thorr_1_collision_3'>
+        <pose>0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_thorr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thrr_1_fixed_joint_lump__screwm_1_1_collision_4'>
+        <pose>0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_1_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thrr_1_fixed_joint_lump__tube_rr_1_collision_5'>
+        <pose>0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tube_rr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thrr_1_fixed_joint_lump__screwm_2_1_collision_6'>
+        <pose>0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_2_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='c_thrr_1_visual'>
+        <pose>0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_thrr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>244 229 167 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thrr_1_fixed_joint_lump__th_rr_1_visual_1'>
+        <pose>0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/th_rr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 171 80 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thrr_1_fixed_joint_lump__tho_rr_1_visual_2'>
+        <pose>0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tho_rr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>73 73 70 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thrr_1_fixed_joint_lump__c_thorr_1_visual_3'>
+        <pose>0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_thorr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>244 229 167 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thrr_1_fixed_joint_lump__screwm_1_1_visual_4'>
+        <pose>0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_1_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>176 255 244 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thrr_1_fixed_joint_lump__tube_rr_1_visual_5'>
+        <pose>0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tube_rr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 167 255 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thrr_1_fixed_joint_lump__screwm_2_1_visual_6'>
+        <pose>0.0525 0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_2_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>176 255 244 1</ambient>
+        </material>
+      </visual>
+      <self_collide>1</self_collide>
+    </link>
+    <joint name='shrrt_joint' type='revolute'>
+      <pose relative_to='c_thrr_1'>-0.044433 0.00142 -0.011906 0 -0 0</pose>
+      <parent>c_thrr_1</parent>
+      <child>servos_rr_1</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='servos_rr_1'>
+      <pose relative_to='shrrt_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0.007613 0.012355 -0.000544 0 -0 0</pose>
+        <mass>0.0189627</mass>
+        <inertia>
+          <ixx>1.00451e-06</ixx>
+          <ixy>-2.26627e-08</ixy>
+          <ixz>1.81111e-08</ixz>
+          <iyy>2.55952e-06</iyy>
+          <iyz>4.9372e-10</iyz>
+          <izz>2.56223e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='servos_rr_1_collision'>
+        <pose>0.096933 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servos_rr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servos_rr_1_fixed_joint_lump__shank_rr_1_collision_1'>
+        <pose>0.096933 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/shank_rr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servos_rr_1_fixed_joint_lump__screw_19_1_collision_2'>
+        <pose>0.096933 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_19_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servos_rr_1_fixed_joint_lump__screw_11_1_collision_3'>
+        <pose>0.096933 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_11_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='servos_rr_1_visual'>
+        <pose>0.096933 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servos_rr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='servos_rr_1_fixed_joint_lump__shank_rr_1_visual_1'>
+        <pose>0.096933 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/shank_rr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>73 73 70 1</ambient>
+        </material>
+      </visual>
+      <visual name='servos_rr_1_fixed_joint_lump__screw_19_1_visual_2'>
+        <pose>0.096933 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_19_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='servos_rr_1_fixed_joint_lump__screw_11_1_visual_3'>
+        <pose>0.096933 0.04708 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_11_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <self_collide>1</self_collide>
+    </link>
+    <joint name='shlrs_joint' type='revolute'>
+      <pose relative_to='base_link'>-0.0525 0.0485 0.022 0 -0 0</pose>
+      <parent>base_link</parent>
+      <child>c_thlr_1</child>
+      <axis>
+        <xyz>0 -1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='c_thlr_1'>
+      <pose relative_to='shlrs_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>-0.022226 0.001172 -0.005952 0 -0 0</pose>
+        <mass>0.00502382</mass>
+        <inertia>
+          <ixx>7.21265e-08</ixx>
+          <ixy>2.35329e-08</ixy>
+          <ixz>-2.41095e-07</ixz>
+          <iyy>9.64379e-07</iyy>
+          <iyz>6.29533e-09</iyz>
+          <izz>9.07303e-07</izz>
+        </inertia>
+      </inertial>
+      <collision name='c_thlr_1_collision'>
+        <pose>0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_thlr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thlr_1_fixed_joint_lump__th_lr__1_collision_1'>
+        <pose>0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/th_lr__1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thlr_1_fixed_joint_lump__tho_lr_1_collision_2'>
+        <pose>0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tho_lr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thlr_1_fixed_joint_lump__c_tholr__1_collision_3'>
+        <pose>0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_tholr__1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thlr_1_fixed_joint_lump__screwm_8_1_collision_4'>
+        <pose>0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_8_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thlr_1_fixed_joint_lump__tube_lr_1_collision_5'>
+        <pose>0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tube_lr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='c_thlr_1_fixed_joint_lump__screwm_7_1_collision_6'>
+        <pose>0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_7_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='c_thlr_1_visual'>
+        <pose>0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_thlr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>244 229 167 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thlr_1_fixed_joint_lump__th_lr__1_visual_1'>
+        <pose>0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/th_lr__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 171 80 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thlr_1_fixed_joint_lump__tho_lr_1_visual_2'>
+        <pose>0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tho_lr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>73 73 70 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thlr_1_fixed_joint_lump__c_tholr__1_visual_3'>
+        <pose>0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/c_tholr__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>244 229 167 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thlr_1_fixed_joint_lump__screwm_8_1_visual_4'>
+        <pose>0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_8_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>176 255 244 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thlr_1_fixed_joint_lump__tube_lr_1_visual_5'>
+        <pose>0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/tube_lr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 167 255 1</ambient>
+        </material>
+      </visual>
+      <visual name='c_thlr_1_fixed_joint_lump__screwm_7_1_visual_6'>
+        <pose>0.0525 -0.0485 -0.022 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screwm_7_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>176 255 244 1</ambient>
+        </material>
+      </visual>
+      <self_collide>1</self_collide>
+    </link>
+    <joint name='shlrt_joint' type='revolute'>
+      <pose relative_to='c_thlr_1'>-0.044433 -0.001418 -0.011906 0 -0 0</pose>
+      <parent>c_thlr_1</parent>
+      <child>servos_lr_1</child>
+      <axis>
+        <xyz>0 1 0</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='servos_lr_1'>
+      <pose relative_to='shlrt_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0.007613 -0.012357 -0.000544 0 -0 0</pose>
+        <mass>0.0189627</mass>
+        <inertia>
+          <ixx>1.00451e-06</ixx>
+          <ixy>2.26627e-08</ixy>
+          <ixz>1.81112e-08</ixz>
+          <iyy>2.55952e-06</iyy>
+          <iyz>-4.93723e-10</iyz>
+          <izz>2.56223e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='servos_lr_1_collision'>
+        <pose>0.096933 -0.047082 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servos_lr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servos_lr_1_fixed_joint_lump__shank_lr_1_collision_1'>
+        <pose>0.096933 -0.047082 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/shank_lr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servos_lr_1_fixed_joint_lump__screw_3_1_collision_2'>
+        <pose>0.096933 -0.047082 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_3_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servos_lr_1_fixed_joint_lump__screw_12_1_collision_3'>
+        <pose>0.096933 -0.047082 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_12_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='servos_lr_1_visual'>
+        <pose>0.096933 -0.047082 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servos_lr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='servos_lr_1_fixed_joint_lump__shank_lr_1_visual_1'>
+        <pose>0.096933 -0.047082 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/shank_lr_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>73 73 70 1</ambient>
+        </material>
+      </visual>
+      <visual name='servos_lr_1_fixed_joint_lump__screw_3_1_visual_2'>
+        <pose>0.096933 -0.047082 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_3_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='servos_lr_1_fixed_joint_lump__screw_12_1_visual_3'>
+        <pose>0.096933 -0.047082 -0.010094 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_12_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <self_collide>1</self_collide>
+    </link>
+    <joint name='neck_joint' type='revolute'>
+      <pose relative_to='base_link'>0.047554 0 0.035941 0 -0 0</pose>
+      <parent>base_link</parent>
+      <child>servo_neck__1</child>
+      <axis>
+        <xyz>-0.5 0 -0.866025</xyz>
+        <limit>
+          <lower>-1e+16</lower>
+          <upper>1e+16</upper>
+        </limit>
+        <dynamics>
+          <spring_reference>0</spring_reference>
+          <spring_stiffness>0</spring_stiffness>
+        </dynamics>
+      </axis>
+    </joint>
+    <link name='servo_neck__1'>
+      <pose relative_to='neck_joint'>0 0 0 0 -0 0</pose>
+      <inertial>
+        <pose>0.013873 -0.004465 0.013256 0 -0 0</pose>
+        <mass>0.0252543</mass>
+        <inertia>
+          <ixx>4.74998e-06</ixx>
+          <ixy>2.00106e-07</ixy>
+          <ixz>-1.23118e-06</ixz>
+          <iyy>5.67312e-06</iyy>
+          <iyz>1.85973e-07</iyz>
+          <izz>4.05626e-06</izz>
+        </inertia>
+      </inertial>
+      <collision name='servo_neck__1_collision'>
+        <pose>-0.047554 0 -0.035941 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servo_neck__1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servo_neck__1_fixed_joint_lump__screw_18_1_collision_1'>
+        <pose>-0.047554 0 -0.035941 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_18_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servo_neck__1_fixed_joint_lump__screw_4_1_collision_2'>
+        <pose>-0.047554 0 -0.035941 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_4_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servo_neck__1_fixed_joint_lump__jaw_1_collision_3'>
+        <pose>-0.047554 0 -0.035941 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/jaw_1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <collision name='servo_neck__1_fixed_joint_lump__head__1_collision_4'>
+        <pose>-0.047554 -0 -0.035941 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/head__1.stl</uri>
+          </mesh>
+        </geometry>
+        <surface>
+          <contact>
+            <ode/>
+          </contact>
+          <friction>
+            <ode>
+              <mu>100</mu>
+              <mu2>100</mu2>
+            </ode>
+          </friction>
+        </surface>
+      </collision>
+      <visual name='servo_neck__1_visual'>
+        <pose>-0.047554 0 -0.035941 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/servo_neck__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>39 61 51 1</ambient>
+        </material>
+      </visual>
+      <visual name='servo_neck__1_fixed_joint_lump__screw_18_1_visual_1'>
+        <pose>-0.047554 0 -0.035941 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_18_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='servo_neck__1_fixed_joint_lump__screw_4_1_visual_2'>
+        <pose>-0.047554 0 -0.035941 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/screw_4_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 93 93 1</ambient>
+        </material>
+      </visual>
+      <visual name='servo_neck__1_fixed_joint_lump__jaw_1_visual_3'>
+        <pose>-0.047554 0 -0.035941 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/jaw_1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>0 167 255 1</ambient>
+        </material>
+      </visual>
+      <visual name='servo_neck__1_fixed_joint_lump__head__1_visual_4'>
+        <pose>-0.047554 -0 -0.035941 0 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>0.001 0.001 0.001</scale>
+            <uri>model://bittle_description/meshes/head__1.stl</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <ambient>255 171 80 1</ambient>
+        </material>
+      </visual>
+      <self_collide>1</self_collide>
+    </link>
+    <plugin name='control' filename='libgazebo_ros_control.so'/>
+    <frame name='Rigid 1' attached_to='base_link'>
+      <pose>0.061733 -0.028 0.025792 0 -0 0</pose>
+    </frame>
+    <frame name='front__1' attached_to='Rigid 1'/>
+    <frame name='Rigid 17' attached_to='base_link'>
+      <pose>-0.006412 -0.032855 0.027034 0 -0 0</pose>
+    </frame>
+    <frame name='a_1' attached_to='Rigid 17'/>
+    <frame name='Rigid 18' attached_to='base_link'>
+      <pose>-0.002835 -0.03277 0.025616 0 -0 0</pose>
+    </frame>
+    <frame name='b__1' attached_to='Rigid 18'/>
+    <frame name='Rigid 19' attached_to='base_link'>
+      <pose>0.000594 -0.032751 0.026875 0 -0 0</pose>
+    </frame>
+    <frame name='c_1' attached_to='Rigid 19'/>
+    <frame name='Rigid 2' attached_to='base_link'>
+      <pose>-0.061733 0.028 0.025792 0 -0 0</pose>
+    </frame>
+    <frame name='rear__1' attached_to='Rigid 2'/>
+    <frame name='Rigid 20' attached_to='base_link'>
+      <pose>0.002348 -0.032764 0.025618 0 -0 0</pose>
+    </frame>
+    <frame name='d_1' attached_to='Rigid 20'/>
+    <frame name='Rigid 21' attached_to='base_link'>
+      <pose>0.005742 -0.032834 0.026061 0 -0 0</pose>
+    </frame>
+    <frame name='e_1' attached_to='Rigid 21'/>
+    <frame name='Rigid 22' attached_to='base_link'>
+      <pose>0.00585 -0.032837 0.026934 0 -0 0</pose>
+    </frame>
+    <frame name='f_1' attached_to='Rigid 22'/>
+    <frame name='Rigid 24' attached_to='base_link'>
+      <pose>0.006412 0.032855 0.027034 0 -0 0</pose>
+    </frame>
+    <frame name='g_1' attached_to='Rigid 24'/>
+    <frame name='Rigid 25' attached_to='base_link'>
+      <pose>0.002835 0.03277 0.025616 0 -0 0</pose>
+    </frame>
+    <frame name='h__1' attached_to='Rigid 25'/>
+    <frame name='Rigid 26' attached_to='base_link'>
+      <pose>-0.000594 0.032751 0.026875 0 -0 0</pose>
+    </frame>
+    <frame name='i_1' attached_to='Rigid 26'/>
+    <frame name='Rigid 27' attached_to='base_link'>
+      <pose>-0.002348 0.032764 0.025618 0 -0 0</pose>
+    </frame>
+    <frame name='j__1' attached_to='Rigid 27'/>
+    <frame name='Rigid 28' attached_to='base_link'>
+      <pose>-0.005742 0.032834 0.026061 0 -0 0</pose>
+    </frame>
+    <frame name='k_1' attached_to='Rigid 28'/>
+    <frame name='Rigid 29' attached_to='base_link'>
+      <pose>-0.005742 0.032834 0.0272 0 -0 0</pose>
+    </frame>
+    <frame name='l_1' attached_to='Rigid 29'/>
+    <frame name='Rigid 60' attached_to='servo_rfs_1'>
+      <pose>0 -0.0015 0 0 -0 0</pose>
+    </frame>
+    <frame name='screw_16_1' attached_to='Rigid 60'/>
+    <frame name='Rigid 61' attached_to='servo_rfs_1'>
+      <pose>-0.024682 -0.0015 0.01425 0 -0 0</pose>
+    </frame>
+    <frame name='screw_7_1' attached_to='Rigid 61'/>
+    <frame name='Rigid 3' attached_to='base_link'>
+      <pose>0.059645 -0.036 0.017875 0 -0 0</pose>
+    </frame>
+    <frame name='servo_rfs_1' attached_to='Rigid 3'/>
+    <frame name='Rigid 77' attached_to='c_thorf_1'>
+      <pose>0 0.003357 0 0 -0 0</pose>
+    </frame>
+    <frame name='screwm_3_1' attached_to='Rigid 77'/>
+    <frame name='Rigid 14' attached_to='tho_rf__1'>
+      <pose>-0.03091 -0.004582 -0.008283 0 -0 0</pose>
+    </frame>
+    <frame name='c_thorf_1' attached_to='Rigid 14'/>
+    <frame name='Rigid 30' attached_to='servos_rf_1'>
+      <pose>-0.008218 0.0075 0.000719 0 -0 0</pose>
+    </frame>
+    <frame name='shank_rf_1' attached_to='Rigid 30'/>
+    <frame name='Rigid 68' attached_to='servos_rf_1'>
+      <pose>-0.008218 0.0075 0.000719 0 -0 0</pose>
+    </frame>
+    <frame name='screw_9_1' attached_to='Rigid 68'/>
+    <frame name='Rigid 88' attached_to='servos_rf_1'>
+      <pose>0.020173 0.0075 -0.001765 0 -0 0</pose>
+    </frame>
+    <frame name='screw_8_1' attached_to='Rigid 88'/>
+    <frame name='Rigid 10' attached_to='th_rf_1'>
+      <pose>-0.013523 0.000445 -0.003623 0 -0 0</pose>
+    </frame>
+    <frame name='tho_rf__1' attached_to='Rigid 10'/>
+    <frame name='Rigid 12' attached_to='th_rf_1'>
+      <pose>-0.02335 -0.001807 -0.00172 0 -0 0</pose>
+    </frame>
+    <frame name='tube__1' attached_to='Rigid 12'/>
+    <frame name='Rigid 13' attached_to='c_thrf__1'>
+      <pose>0 -0.0023 0 0 -0 0</pose>
+    </frame>
+    <frame name='th_rf_1' attached_to='Rigid 13'/>
+    <frame name='Rigid 78' attached_to='c_thrf__1'>
+      <pose>0 -0.001 0 0 -0 0</pose>
+    </frame>
+    <frame name='screwm_4_1' attached_to='Rigid 78'/>
+    <frame name='Rigid 64' attached_to='servo_lfs_1'>
+      <pose>0 0.0015 0 0 -0 0</pose>
+    </frame>
+    <frame name='screw_5_1' attached_to='Rigid 64'/>
+    <frame name='Rigid 65' attached_to='servo_lfs_1'>
+      <pose>-0.024682 0.0015 0.01425 0 -0 0</pose>
+    </frame>
+    <frame name='screw_10_1' attached_to='Rigid 65'/>
+    <frame name='Rigid 4' attached_to='base_link'>
+      <pose>0.059645 0.036 0.017875 0 -0 0</pose>
+    </frame>
+    <frame name='servo_lfs_1' attached_to='Rigid 4'/>
+    <frame name='Rigid 80' attached_to='c_tholf_1'>
+      <pose>0 -0.003357 0 0 -0 0</pose>
+    </frame>
+    <frame name='screwm_6_1' attached_to='Rigid 80'/>
+    <frame name='Rigid 42' attached_to='tho_lf_1'>
+      <pose>-0.03091 0.004582 -0.008283 0 -0 0</pose>
+    </frame>
+    <frame name='c_tholf_1' attached_to='Rigid 42'/>
+    <frame name='Rigid 43' attached_to='servos_lf_1'>
+      <pose>-0.008218 -0.007498 0.000719 0 -0 0</pose>
+    </frame>
+    <frame name='shank_lf_1' attached_to='Rigid 43'/>
+    <frame name='Rigid 71' attached_to='servos_lf_1'>
+      <pose>-0.008218 -0.0075 0.000719 0 -0 0</pose>
+    </frame>
+    <frame name='screw_2_1' attached_to='Rigid 71'/>
+    <frame name='Rigid 72' attached_to='servos_lf_1'>
+      <pose>0.020173 -0.0075 -0.001765 0 -0 0</pose>
+    </frame>
+    <frame name='screw_20_1' attached_to='Rigid 72'/>
+    <frame name='Rigid 39' attached_to='th_lf_1'>
+      <pose>-0.013523 -0.000445 -0.003623 0 -0 0</pose>
+    </frame>
+    <frame name='tho_lf_1' attached_to='Rigid 39'/>
+    <frame name='Rigid 40' attached_to='th_lf_1'>
+      <pose>-0.02335 0.001807 -0.00172 0 -0 0</pose>
+    </frame>
+    <frame name='tube_lf_1' attached_to='Rigid 40'/>
+    <frame name='Rigid 41' attached_to='c_thlf_1'>
+      <pose>0 0.0023 0 0 -0 0</pose>
+    </frame>
+    <frame name='th_lf_1' attached_to='Rigid 41'/>
+    <frame name='Rigid 79' attached_to='c_thlf_1'>
+      <pose>0 0.001 0 0 -0 0</pose>
+    </frame>
+    <frame name='screwm_5_1' attached_to='Rigid 79'/>
+    <frame name='Rigid 62' attached_to='servo_rrs__1'>
+      <pose>0.024682 -0.0015 0.01425 0 -0 0</pose>
+    </frame>
+    <frame name='screw_1_1' attached_to='Rigid 62'/>
+    <frame name='Rigid 63' attached_to='servo_rrs__1'>
+      <pose>0 -0.0015 0 0 -0 0</pose>
+    </frame>
+    <frame name='screw_15_1' attached_to='Rigid 63'/>
+    <frame name='Rigid 5' attached_to='base_link'>
+      <pose>-0.059645 -0.036 0.017875 0 -0 0</pose>
+    </frame>
+    <frame name='servo_rrs__1' attached_to='Rigid 5'/>
+    <frame name='Rigid 75' attached_to='c_thorr_1'>
+      <pose>0 0.003357 0 0 -0 0</pose>
+    </frame>
+    <frame name='screwm_1_1' attached_to='Rigid 75'/>
+    <frame name='Rigid 35' attached_to='tho_rr_1'>
+      <pose>-0.03091 -0.004582 -0.008283 0 -0 0</pose>
+    </frame>
+    <frame name='c_thorr_1' attached_to='Rigid 35'/>
+    <frame name='Rigid 36' attached_to='servos_rr_1'>
+      <pose>-0.008218 0.0075 0.000719 0 -0 0</pose>
+    </frame>
+    <frame name='shank_rr_1' attached_to='Rigid 36'/>
+    <frame name='Rigid 69' attached_to='servos_rr_1'>
+      <pose>0.020173 0.0075 -0.001765 0 -0 0</pose>
+    </frame>
+    <frame name='screw_19_1' attached_to='Rigid 69'/>
+    <frame name='Rigid 70' attached_to='servos_rr_1'>
+      <pose>-0.008218 0.0075 0.000719 0 -0 0</pose>
+    </frame>
+    <frame name='screw_11_1' attached_to='Rigid 70'/>
+    <frame name='Rigid 32' attached_to='th_rr_1'>
+      <pose>-0.013523 0.000445 -0.003623 0 -0 0</pose>
+    </frame>
+    <frame name='tho_rr_1' attached_to='Rigid 32'/>
+    <frame name='Rigid 33' attached_to='th_rr_1'>
+      <pose>-0.02335 -0.001807 -0.00172 0 -0 0</pose>
+    </frame>
+    <frame name='tube_rr_1' attached_to='Rigid 33'/>
+    <frame name='Rigid 34' attached_to='c_thrr_1'>
+      <pose>0 -0.0023 0 0 -0 0</pose>
+    </frame>
+    <frame name='th_rr_1' attached_to='Rigid 34'/>
+    <frame name='Rigid 76' attached_to='c_thrr_1'>
+      <pose>0 -0.001 0 0 -0 0</pose>
+    </frame>
+    <frame name='screwm_2_1' attached_to='Rigid 76'/>
+    <frame name='Rigid 53' attached_to='cover_1'>
+      <pose>0.000391 0.021805 0.016353 0 -0 0</pose>
+    </frame>
+    <frame name='logo_5_1' attached_to='Rigid 53'/>
+    <frame name='Rigid 54' attached_to='cover_1'>
+      <pose>-0.001444 0.027596 0.016353 0 -0 0</pose>
+    </frame>
+    <frame name='logo_1_1' attached_to='Rigid 54'/>
+    <frame name='Rigid 55' attached_to='cover_1'>
+      <pose>-0.001444 0.029425 0.016353 0 -0 0</pose>
+    </frame>
+    <frame name='logo_2_1' attached_to='Rigid 55'/>
+    <frame name='Rigid 56' attached_to='cover_1'>
+      <pose>-0.001453 0.03613 0.016353 0 -0 0</pose>
+    </frame>
+    <frame name='logo_3_1' attached_to='Rigid 56'/>
+    <frame name='Rigid 57' attached_to='cover_1'>
+      <pose>0.005058 0.021805 0.016353 0 -0 0</pose>
+    </frame>
+    <frame name='logo_4_1' attached_to='Rigid 57'/>
+    <frame name='Rigid 58' attached_to='base_link'>
+      <pose>0 -0.031 0.030939 0 -0 0</pose>
+    </frame>
+    <frame name='cover_1' attached_to='Rigid 58'/>
+    <frame name='Rigid 59' attached_to='base_link'>
+      <pose>-0.01725 0 0.023892 0 -0 0</pose>
+    </frame>
+    <frame name='battery_1' attached_to='Rigid 59'/>
+    <frame name='Rigid 66' attached_to='servo_lrs__1'>
+      <pose>0.024682 0.0015 0.01425 0 -0 0</pose>
+    </frame>
+    <frame name='screw_13_1' attached_to='Rigid 66'/>
+    <frame name='Rigid 67' attached_to='servo_lrs__1'>
+      <pose>0 0.0015 0 0 -0 0</pose>
+    </frame>
+    <frame name='screw_14_1' attached_to='Rigid 67'/>
+    <frame name='Rigid 6' attached_to='base_link'>
+      <pose>-0.059645 0.036 0.017875 0 -0 0</pose>
+    </frame>
+    <frame name='servo_lrs__1' attached_to='Rigid 6'/>
+    <frame name='Rigid 81' attached_to='c_tholr__1'>
+      <pose>0 -0.003359 0 0 -0 0</pose>
+    </frame>
+    <frame name='screwm_8_1' attached_to='Rigid 81'/>
+    <frame name='Rigid 49' attached_to='tho_lr_1'>
+      <pose>-0.03091 0.004582 -0.008283 0 -0 0</pose>
+    </frame>
+    <frame name='c_tholr__1' attached_to='Rigid 49'/>
+    <frame name='Rigid 50' attached_to='servos_lr_1'>
+      <pose>-0.008218 -0.0075 0.000719 0 -0 0</pose>
+    </frame>
+    <frame name='shank_lr_1' attached_to='Rigid 50'/>
+    <frame name='Rigid 73' attached_to='servos_lr_1'>
+      <pose>-0.008218 -0.007502 0.000719 0 -0 0</pose>
+    </frame>
+    <frame name='screw_3_1' attached_to='Rigid 73'/>
+    <frame name='Rigid 74' attached_to='servos_lr_1'>
+      <pose>0.020173 -0.007502 -0.001765 0 -0 0</pose>
+    </frame>
+    <frame name='screw_12_1' attached_to='Rigid 74'/>
+    <frame name='Rigid 46' attached_to='th_lr__1'>
+      <pose>-0.013523 -0.000445 -0.003623 0 -0 0</pose>
+    </frame>
+    <frame name='tho_lr_1' attached_to='Rigid 46'/>
+    <frame name='Rigid 47' attached_to='th_lr__1'>
+      <pose>-0.02335 0.001807 -0.00172 0 -0 0</pose>
+    </frame>
+    <frame name='tube_lr_1' attached_to='Rigid 47'/>
+    <frame name='Rigid 48' attached_to='c_thlr_1'>
+      <pose>0 0.002302 0 0 -0 0</pose>
+    </frame>
+    <frame name='th_lr__1' attached_to='Rigid 48'/>
+    <frame name='Rigid 82' attached_to='c_thlr_1'>
+      <pose>0 0.001 0 0 -0 0</pose>
+    </frame>
+    <frame name='screwm_7_1' attached_to='Rigid 82'/>
+    <frame name='Rigid 85' attached_to='c_neck__1'>
+      <pose>0.001 -0.00675 0.001732 0 -0 0</pose>
+    </frame>
+    <frame name='screw_17_1' attached_to='Rigid 85'/>
+    <frame name='Rigid 86' attached_to='c_neck__1'>
+      <pose>0.001 0.00675 0.001732 0 -0 0</pose>
+    </frame>
+    <frame name='screw_21_1' attached_to='Rigid 86'/>
+    <frame name='Rigid 87' attached_to='c_neck__1'>
+      <pose>0.0004 0 0.000693 0 -0 0</pose>
+    </frame>
+    <frame name='screw_6_1' attached_to='Rigid 87'/>
+    <frame name='Rigid 7' attached_to='base_link'>
+      <pose>0.044904 0 0.031351 0 -0 0</pose>
+    </frame>
+    <frame name='c_neck__1' attached_to='Rigid 7'/>
+    <frame name='Rigid 83' attached_to='servo_neck__1'>
+      <pose>0.016896 -0.012925 -0.001914 0 -0 0</pose>
+    </frame>
+    <frame name='screw_18_1' attached_to='Rigid 83'/>
+    <frame name='Rigid 84' attached_to='servo_neck__1'>
+      <pose>-0.001375 0.005264 0.01032 0 -0 0</pose>
+    </frame>
+    <frame name='screw_4_1' attached_to='Rigid 84'/>
+    <frame name='Rigid 8' attached_to='jaw_1'>
+      <pose>-0.008739 -0.00423 0.0263 0 -0 0</pose>
+    </frame>
+    <frame name='head__1' attached_to='Rigid 8'/>
+    <frame name='Rigid 9' attached_to='servo_neck__1'>
+      <pose>0.016896 -0.012925 -0.001914 0 -0 0</pose>
+    </frame>
+    <frame name='jaw_1' attached_to='Rigid 9'/>
+  </model>
+</sdf>
