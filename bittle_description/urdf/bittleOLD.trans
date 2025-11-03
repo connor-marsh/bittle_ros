@@ -1,89 +1,100 @@
 <?xml version="1.0" ?>
 <robot name="bittle" xmlns:xacro="http://www.ros.org/wiki/xacro" >
 
-<transmission name="right_front_shoulder_joint_tran">
+<transmission name="neck_joint_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="right_front_shoulder_joint">
+  <joint name="neck_joint">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="right_front_shoulder_joint_actr">
+  <actuator name="neck_joint_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="right_front_knee_joint_tran">
+<transmission name="shrfs_joint_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="right_front_knee_joint">
+  <joint name="shrfs_joint">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="right_front_knee_joint_actr">
+  <actuator name="shrfs_joint_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="right_back_shoulder_joint_tran">
+<transmission name="shrft_joint_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="right_back_shoulder_joint">
+  <joint name="shrft_joint">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="right_back_shoulder_joint_actr">
+  <actuator name="shrft_joint_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="right_back_knee_joint_tran">
+<transmission name="shrrs_joint_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="right_back_knee_joint">
+  <joint name="shrrs_joint">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="right_back_knee_joint_actr">
+  <actuator name="shrrs_joint_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="left_front_shoulder_joint_tran">
+<transmission name="shrrt_joint_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="left_front_shoulder_joint">
+  <joint name="shrrt_joint">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="left_front_shoulder_joint_actr">
+  <actuator name="shrrt_joint_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="left_front_knee_joint_tran">
+<transmission name="shlfs_joint_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="left_front_knee_joint">
+  <joint name="shlfs_joint">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="left_front_knee_joint_actr">
+  <actuator name="shlfs_joint_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="left_back_shoulder_joint_tran">
+<transmission name="shlft_joint_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="left_back_shoulder_joint">
+  <joint name="shlft_joint">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="left_back_shoulder_joint_actr">
+  <actuator name="shlft_joint_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>
 </transmission>
 
-<transmission name="left_back_knee_joint_tran">
+<transmission name="shlrs_joint_tran">
   <type>transmission_interface/SimpleTransmission</type>
-  <joint name="left_back_knee_joint">
+  <joint name="shlrs_joint">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
   </joint>
-  <actuator name="left_back_knee_joint_actr">
+  <actuator name="shlrs_joint_actr">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+    <mechanicalReduction>1</mechanicalReduction>
+  </actuator>
+</transmission>
+
+<transmission name="shlrt_joint_tran">
+  <type>transmission_interface/SimpleTransmission</type>
+  <joint name="shlrt_joint">
+    <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
+  </joint>
+  <actuator name="shlrt_joint_actr">
     <hardwareInterface>hardware_interface/EffortJointInterface</hardwareInterface>
     <mechanicalReduction>1</mechanicalReduction>
   </actuator>

@@ -17,17 +17,17 @@ class Gait:
 
         self.rate = rospy.Rate(200)
 
-        self.back_right_leg = rospy.Publisher('/right_back_shoulder_joint_position_controller/command', Float64, queue_size=10)
-        self.back_right_shin= rospy.Publisher('/right_back_knee_joint_position_controller/command', Float64, queue_size=10)
+        self.back_right_leg = rospy.Publisher('/shrrs_joint_position_controller/command', Float64, queue_size=10)
+        self.back_right_shin= rospy.Publisher('/shrrt_joint_position_controller/command', Float64, queue_size=10)
 
-        self.back_left_leg = rospy.Publisher('/left_back_shoulder_joint_position_controller/command', Float64, queue_size=10)
-        self.back_left_shin= rospy.Publisher('/left_back_knee_joint_position_controller/command', Float64, queue_size=10)
+        self.back_left_leg = rospy.Publisher('/shlrs_joint_position_controller/command', Float64, queue_size=10)
+        self.back_left_shin= rospy.Publisher('/shlrt_joint_position_controller/command', Float64, queue_size=10)
 
-        self.front_left_leg = rospy.Publisher('/left_front_shoulder_joint_position_controller/command', Float64, queue_size=10)
-        self.front_left_shin= rospy.Publisher('/left_front_knee_joint_position_controller/command', Float64, queue_size=10)
+        self.front_left_leg = rospy.Publisher('/shlfs_joint_position_controller/command', Float64, queue_size=10)
+        self.front_left_shin= rospy.Publisher('/shlft_joint_position_controller/command', Float64, queue_size=10)
 
-        self.front_right_leg = rospy.Publisher('/right_front_shoulder_joint_position_controller/command', Float64, queue_size=10)
-        self.front_right_shin= rospy.Publisher('/right_front_knee_joint_position_controller/command', Float64, queue_size=10)
+        self.front_right_leg = rospy.Publisher('/shrfs_joint_position_controller/command', Float64, queue_size=10)
+        self.front_right_shin= rospy.Publisher('/shrft_joint_position_controller/command', Float64, queue_size=10)
 
         
 
@@ -250,33 +250,14 @@ class Gait:
         t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12=positions
         print(positions)
          # Publish the message
-        # self.back_right_leg.publish(t2+np.pi/3) # publish the turn command.
-        # self.back_right_shin.publish(t3-np.pi/8) # publish the control speed. 
-        # self.front_right_leg.publish(t5+np.pi/6) # publish the turn command.
-        # self.front_right_shin.publish(t6-np.pi/8) # publish the control speed. 
-        # self.back_left_leg.publish(t8+np.pi/3) # publish the turn command.
-        # self.back_left_shin.publish(t9-np.pi/8) # publish the control speleft
-        # self.front_left_leg.publish(t11+np.pi/6) # publish the turn command.
-        # self.front_left_shin.publish(t12-np.pi/8) # publish the control speed.
-        # 
-        #  
-        self.back_right_leg.publish(t2) # publish the turn command.
-        self.back_right_shin.publish(t3-np.pi/2) # publish the control speed. 
-        self.front_right_leg.publish(t5) # publish the turn command.
-        self.front_right_shin.publish(t6-np.pi/2) # publish the control speed. 
-        self.back_left_leg.publish(-(t8)) # publish the turn command.
-        self.back_left_shin.publish(-(t9-np.pi/2)) # publish the control speleft
-        self.front_left_leg.publish(-(t11)) # publish the turn command.
-        self.front_left_shin.publish(-(t12-np.pi/2)) # publish the control speed.
-        # 
-        # self.back_right_leg.publish(-np.pi/4) # publish the turn command.
-        # self.back_right_shin.publish(-np.pi/2) # publish the control speed. 
-        # self.front_right_leg.publish(-np.pi/4) # publish the turn command.
-        # self.front_right_shin.publish(-np.pi/2) # publish the control speed. 
-        # self.back_left_leg.publish(np.pi/4) # publish the turn command.
-        # self.back_left_shin.publish(np.pi/2) # publish the control speleft
-        # self.front_left_leg.publish(np.pi/4) # publish the turn command.
-        # self.front_left_shin.publish(np.pi/2) # publish the control speed.  
+        self.back_right_leg.publish(t2+np.pi/3) # publish the turn command.
+        self.back_right_shin.publish(t3-np.pi/8) # publish the control speed. 
+        self.front_right_leg.publish(t5+np.pi/6) # publish the turn command.
+        self.front_right_shin.publish(t6-np.pi/8) # publish the control speed. 
+        self.back_left_leg.publish(t8+np.pi/3) # publish the turn command.
+        self.back_left_shin.publish(t9-np.pi/8) # publish the control speleft
+        self.front_left_leg.publish(t11+np.pi/6) # publish the turn command.
+        self.front_left_shin.publish(t12-np.pi/8) # publish the control speed. 
 
 
     def controller(self):

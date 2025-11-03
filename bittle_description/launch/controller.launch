@@ -1,6 +1,7 @@
 <launch>
+<arg name ="init_pose" value="-x 0.0 -y 0.0 -z 0.6 -R  0.0 -P 0.0 -Y 0.0"/>
 <param name="robot_description" command="$(find xacro)/xacro $(find bittle_description)/urdf/bittle.xacro"/>
-  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model bittle"/>
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="$(arg init_pose) -param robot_description -urdf -model bittle"/>
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
   <arg name="world_name" value="$(find bittle_gazebo)/world/normal.world"/>
     <arg name="paused" value="false"/>
@@ -11,7 +12,7 @@
   </include>
 
 <rosparam file="$(find bittle_description)/config/controller.yaml" command="load"/>
-<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen"  args="neck_joint_position_controller shrfs_joint_position_controller shrft_joint_position_controller shrrs_joint_position_controller shrrt_joint_position_controller shlfs_joint_position_controller shlft_joint_position_controller shlrs_joint_position_controller shlrt_joint_position_controller joint_state_controller "/>
+<node name="controller_spawner" pkg="controller_manager" type="spawner" respawn="false" output="screen"  args="right_front_shoulder_joint_position_controller right_front_knee_joint_position_controller right_back_shoulder_joint_position_controller right_back_knee_joint_position_controller left_front_shoulder_joint_position_controller left_front_knee_joint_position_controller left_back_shoulder_joint_position_controller left_back_knee_joint_position_controller joint_state_controller "/>
 <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="false" output="screen">
   
 </node>
@@ -20,3 +21,4 @@
 
 
   <!--<node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-file $(find bittle_description)/urdf/bittle.urdf -urdf -model bittle"/>-->
+<!--neck_joint_position_controller shrfs_joint_position_controller shrft_joint_position_controller shrrs_joint_position_controller shrrt_joint_position_controller shlfs_joint_position_controller shlft_joint_position_controller shlrs_joint_position_controller shlrt_joint_position_controller joint_state_controller -->

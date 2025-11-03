@@ -1,11 +1,13 @@
 <launch>
+  <arg name ="init_pose" value="-x 0.0 -y 0.0 -z 0.6 -R  0.0 -P 0.0 -Y 0.0"/>
   <param name="robot_description" command="$(find xacro)/xacro $(find bittle_description)/urdf/bittle.xacro"/>
-  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="-param robot_description -urdf -model bittle"/>
+  <node name="spawn_urdf" pkg="gazebo_ros" type="spawn_model" args="$(arg init_pose) -param robot_description -urdf -model bittle"/>
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="paused" value="false"/>
+    <arg name="paused" value="true"/>
     <arg name="use_sim_time" value="true"/>
-    <arg name="gui" value="false"/>
+    <arg name="gui" value="true"/>
     <arg name="headless" value="false"/>
     <arg name="debug" value="false"/>
   </include>
 </launch>
+

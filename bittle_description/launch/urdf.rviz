@@ -73,7 +73,7 @@ Visualization Manager:
           Show Axes: false
           Show Trail: false
           Value: true
-        base_link:
+        base_frame_link:
           Alpha: 1
           Show Axes: false
           Show Trail: false
@@ -525,7 +525,7 @@ Visualization Manager:
   Global Options:
     Background Color: 48; 48; 48
     Default Light: true
-    Fixed Frame: base_link
+    Fixed Frame: base_frame_link
     Frame Rate: 30
   Name: root
   Tools:
