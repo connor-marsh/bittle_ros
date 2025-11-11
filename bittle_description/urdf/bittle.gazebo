@@ -38,45 +38,164 @@
   </visual>
 </xacro:macro>
 
-
+  <gazebo reference="cover_link">
+    <sensor name="body_bumper" type="contact">
+        <selfCollide>false</selfCollide>
+        <alwaysOn>true</alwaysOn>
+        <updateRate>1.0</updateRate>
+        <material>Gazebo/Red</material>
+        <contact>
+          <collision>dummy_link_fixed_joint_lump__cover_link_collision_2</collision>
+        </contact>
+        <plugin name="gazebo_ros_bumper_controller" filename="libgazebo_ros_bumper.so">   
+            <bumperTopicName>body_bumper</bumperTopicName>
+            <frameName>world</frameName>
+        </plugin>
+    </sensor>
+  </gazebo>
 
   <gazebo reference="base_frame_link">
     <xacro:green_body />
+    
   </gazebo>
   
   <gazebo reference="right_front_shoulder_link">
     <xacro:leg_color />
     <mu1>100.0</mu1>        <mu2>100.0</mu2>        <kp>10000000.0</kp>     <kd>1000.0</kd>         <maxVel>0.01</maxVel>   <minDepth>0.00</minDepth>
+    <sensor name="right_front_kneecap" type="contact">
+      <selfCollide>false</selfCollide>
+      <alwaysOn>true</alwaysOn>
+      <updateRate>1.0</updateRate>
+      <material>Gazebo/Red</material>
+      <contact>
+        <collision>right_front_shoulder_link_collision</collision>
+      </contact>
+      <plugin name="gazebo_ros_bumper_controller" filename="libgazebo_ros_bumper.so">   
+          <bumperTopicName>knee_bumpers</bumperTopicName>
+          <frameName>world</frameName>
+      </plugin>
+  </sensor>
   </gazebo>
   <gazebo reference="right_front_knee_link">
     <xacro:shin_color />
     <mu1>100.0</mu1>        <mu2>100.0</mu2>        <kp>10000000.0</kp>     <kd>1000.0</kd>         <maxVel>0.01</maxVel>   <minDepth>0.00</minDepth>
+    <sensor name="right_front_foot" type="contact">
+      <selfCollide>false</selfCollide>
+      <alwaysOn>true</alwaysOn>
+      <updateRate>1.0</updateRate>
+      <material>Gazebo/Red</material>
+      <contact>
+        <collision>right_front_knee_link_collision</collision>
+      </contact>
+      <plugin name="gazebo_ros_bumper_controller" filename="libgazebo_ros_bumper.so">   
+          <bumperTopicName>feet_bumpers</bumperTopicName>
+          <frameName>world</frameName>
+      </plugin>
+  </sensor>
   </gazebo>
   <gazebo reference="right_back_shoulder_link">
     <xacro:leg_color />
     <mu1>100.0</mu1>        <mu2>100.0</mu2>        <kp>10000000.0</kp>     <kd>1000.0</kd>         <maxVel>0.01</maxVel>   <minDepth>0.00</minDepth>
+    <sensor name="right_back_kneecap" type="contact">
+      <selfCollide>false</selfCollide>
+      <alwaysOn>true</alwaysOn>
+      <updateRate>1.0</updateRate>
+      <material>Gazebo/Red</material>
+      <contact>
+        <collision>right_back_shoulder_link_collision</collision>
+      </contact>
+      <plugin name="gazebo_ros_bumper_controller" filename="libgazebo_ros_bumper.so">   
+          <bumperTopicName>knee_bumpers</bumperTopicName>
+          <frameName>world</frameName>
+      </plugin>
+  </sensor>
   </gazebo>
   <gazebo reference="right_back_knee_link">
     <xacro:shin_color />
     <mu1>100.0</mu1>        <mu2>100.0</mu2>        <kp>10000000.0</kp>     <kd>1000.0</kd>         <maxVel>0.01</maxVel>   <minDepth>0.00</minDepth>
+    <sensor name="right_back_foot" type="contact">
+      <selfCollide>false</selfCollide>
+      <alwaysOn>true</alwaysOn>
+      <updateRate>1.0</updateRate>
+      <material>Gazebo/Red</material>
+      <contact>
+        <collision>right_back_knee_link_collision</collision>
+      </contact>
+      <plugin name="gazebo_ros_bumper_controller" filename="libgazebo_ros_bumper.so">   
+          <bumperTopicName>feet_bumpers</bumperTopicName>
+          <frameName>world</frameName>
+      </plugin>
+  </sensor>
   </gazebo>
 
 
   <gazebo reference="left_front_shoulder_link">
     <xacro:leg_color />
     <mu1>100.0</mu1>        <mu2>100.0</mu2>        <kp>10000000.0</kp>     <kd>1000.0</kd>         <maxVel>0.01</maxVel>   <minDepth>0.00</minDepth>
+    <sensor name="left_front_kneecap" type="contact">
+      <selfCollide>false</selfCollide>
+      <alwaysOn>true</alwaysOn>
+      <updateRate>1.0</updateRate>
+      <material>Gazebo/Red</material>
+      <contact>
+        <collision>left_front_shoulder_link_collision</collision>
+      </contact>
+      <plugin name="gazebo_ros_bumper_controller" filename="libgazebo_ros_bumper.so">   
+          <bumperTopicName>knee_bumpers</bumperTopicName>
+          <frameName>world</frameName>
+      </plugin>
+  </sensor>
   </gazebo>
   <gazebo reference="left_front_knee_link">
     <xacro:shin_color />
     <mu1>100.0</mu1>        <mu2>100.0</mu2>        <kp>10000000.0</kp>     <kd>1000.0</kd>         <maxVel>0.01</maxVel>   <minDepth>0.00</minDepth>
+    <sensor name="left_front_foot" type="contact">
+      <selfCollide>false</selfCollide>
+      <alwaysOn>true</alwaysOn>
+      <updateRate>1.0</updateRate>
+      <material>Gazebo/Red</material>
+      <contact>
+        <collision>left_front_knee_link_collision</collision>
+      </contact>
+      <plugin name="gazebo_ros_bumper_controller" filename="libgazebo_ros_bumper.so">   
+          <bumperTopicName>feet_bumpers</bumperTopicName>
+          <frameName>world</frameName>
+      </plugin>
+  </sensor>
   </gazebo>
   <gazebo reference="left_back_shoulder_link">
     <xacro:leg_color />
     <mu1>100.0</mu1>        <mu2>100.0</mu2>        <kp>10000000.0</kp>     <kd>1000.0</kd>         <maxVel>0.01</maxVel>   <minDepth>0.00</minDepth>
+    <sensor name="left_back_kneecap" type="contact">
+      <selfCollide>false</selfCollide>
+      <alwaysOn>true</alwaysOn>
+      <updateRate>1.0</updateRate>
+      <material>Gazebo/Red</material>
+      <contact>
+        <collision>left_back_shoulder_link_collision</collision>
+      </contact>
+      <plugin name="gazebo_ros_bumper_controller" filename="libgazebo_ros_bumper.so">   
+          <bumperTopicName>knee_bumpers</bumperTopicName>
+          <frameName>world</frameName>
+      </plugin>
+  </sensor>
   </gazebo>
   <gazebo reference="left_back_knee_link">
     <xacro:shin_color />
     <mu1>100.0</mu1>        <mu2>100.0</mu2>        <kp>10000000.0</kp>     <kd>1000.0</kd>         <maxVel>0.01</maxVel>   <minDepth>0.00</minDepth>
+    <sensor name="left_back_foot" type="contact">
+      <selfCollide>false</selfCollide>
+      <alwaysOn>true</alwaysOn>
+      <updateRate>1.0</updateRate>
+      <material>Gazebo/Red</material>
+      <contact>
+        <collision>left_back_knee_link_collision</collision>
+      </contact>
+      <plugin name="gazebo_ros_bumper_controller" filename="libgazebo_ros_bumper.so">   
+          <bumperTopicName>feet_bumpers</bumperTopicName>
+          <frameName>world</frameName>
+      </plugin>
+  </sensor>
   </gazebo>
 
   

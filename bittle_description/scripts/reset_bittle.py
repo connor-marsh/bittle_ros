@@ -150,7 +150,7 @@ if __name__ == '__main__':
     # 3. Define the initial joint positions
     JOINT_NAMES = [name+"_joint" for name in joint_names] # List ALL controlled joints
     # INITIAL_JOINT_POSITIONS = [0.5 for name in joint_names] # Corresponding positions (radians/meters)
-    INITIAL_JOINT_POSITIONS = [0.6, 0, 0.6, 0, -0.6, 0, -0.6, 0] # Corresponding positions (radians/meters)
+    INITIAL_JOINT_POSITIONS = [0.8, 0, 0.8, 0, -0.8, 0, -0.8, 0] # Corresponding positions (radians/meters)
 
     # 4. Define the controllers to be loaded/started
     CONTROLLER_LIST = ['joint_state_controller'] + [name + "_joint_position_controller" for name in joint_names]
